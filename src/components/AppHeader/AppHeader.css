@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  background: rgb(47, 73, 73) url(http://trumpwallpapers.com/wp-content/uploads/Book-Wallpaper-01-2716-x-1810.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+}
+
+.header-title__text {
+  margin-bottom: 20px;
+  font-size: 47px;
+}
+
+.header-search-bar {
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-search-bar form{
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-search-bar__input {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  background: #fff;
+  border: 0;
+  outline: none;
+  font-size: 22px;
+}
+
+.header-search-bar__btn {
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 0;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+svg.header-search-bar__btn-icon {
+  font-size: 35px;
+}
+
+.header-sort-bar {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-sort-bar__select-group {
+  max-width: 400px;
+  width: 100%;
+}
+
+.header-sort-bar__select-group:first-child {
+  margin-right: 25px;
+}
+
+.select-group-label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.select-group-select {
+  max-width: 300px;
+  width: 70%;
+  height: 40px;
+  padding: 0 15px;
+  background: #fff;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 22px;
+  color: #7d7b7b;
+}
