@@ -43,7 +43,7 @@ export default function BookDescription({ book, closeShowBook }) {
           onClick={closeShowBook}
           variant="contained"
         >
-          Назад
+          Back
         </Button>
       </div>
     </>

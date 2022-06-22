@@ -5,6 +5,7 @@ import Loader from "../Loader/Loader.js";
 import React, { useState } from "react";
 import BookDescription from "../BookDescription/BookDescription";
 import { useSelector } from "react-redux";
+import "./Responsive.css";
 
 function App() {
   const [bookData, setBookData] = useState(false);

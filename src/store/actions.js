@@ -34,7 +34,7 @@ export const fetchBooks = (searchParams) => {
           : ""
       }&maxResults=30&orderBy=${
         searchParams.sortingValue
-      }&printType=books&projection=full&key=${process.env.REACT_APP_API_KEY_GOOGLE_BOOKS}`
+      }&printType=books&projection=full&key=AIzaSyDqSD1ikizFCnZNTB4eEtf_udpdHc_ZpDs`
     )
       .then((r) => r.json())
       .then((r) => {
@@ -74,9 +74,7 @@ export const fetchMoreBooks = (length, searchParams, maxRes = 30) => {
           : ""
       }&startIndex=${length}&maxResults=${maxRes}&orderBy=${
         searchParams.sortingValue
-      }&projection=full&printType=books&projection=full&key=${
-        process.env.REACT_APP_API_KEY_GOOGLE_BOOKS
-      }`
+      }&projection=full&printType=books&projection=full&key=AIzaSyDqSD1ikizFCnZNTB4eEtf_udpdHc_ZpDs`
     )
       .then((r) => r.json())
       .then((r) => {

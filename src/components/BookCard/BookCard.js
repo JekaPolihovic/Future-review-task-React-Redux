@@ -16,7 +16,7 @@ export default function BookCard({ book, openBookDescription }) {
   const author = book.volumeInfo?.authors?.slice(0,1);
 
   return (
-    <Grid className="book-card-item" item xs={3} onClick={sendBook}>
+    <Grid className="book-card-item" item xl={3} lg={3} md={6} sm={12} xs={12} onClick={sendBook}>
       <div className="book-card">
         <img
           className="book-card__img"

@@ -1,0 +1,127 @@
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 100%;
+        padding: 0 15px;
+    }
+
+    .header-title__text {
+        font-size: 30px;
+    }
+
+    .header-sort-bar {
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .header-search-bar__input {
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .header-search-bar__btn {
+        height: 30px;
+        width: 30px;
+    }
+
+    svg.header-search-bar__btn-icon {
+        font-size: 26px;
+    }
+
+    .header-sort-bar__select-group {
+        text-align: center;
+    }
+
+    .header-sort-bar__select-group:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .select-group-label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .select-group-select {
+        max-width: 100%;
+        width: 100%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .main-section {
+        margin-top: 25px;
+    }
+
+    .main-section h4 {
+        font-size: 20px;
+    }
+
+    .main-container__counter-container p {
+        font-size: 14px;
+    }
+
+    .book-card__img {
+        height: 150px;
+    }
+
+    .book-card {
+        max-width: 300px;
+        margin: 0 auto;
+        height: 288px;
+    }
+
+    .book-card__categories {
+        font-size: 14px;
+    }
+
+    .book-card__title {
+        font-size: 14px;
+    }
+
+    .book-card__authors {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+.book-item-wrapper {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .book-item__img__wrapper {
+        width: 100%;
+    }
+
+    .book-item__img {
+        margin: 25px auto;
+    }
+
+    .book-item-description-wrapper {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .book-item__breadcrumbs {
+        font-size: 14px;
+    }
+
+    .book-item__title {
+        font-size: 18px;
+    }
+
+    .book-item__authors {
+        font-size: 14px;
+    }
+
+    .book-item-description-container {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .book-item-description-container p {
+        font-size: 14px;
+    }
+}
